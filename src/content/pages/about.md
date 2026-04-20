@@ -34,7 +34,7 @@ The dynamic nature of the tech industry inspires me to stay up-to-date with the 
 
 ## Collaboration and Communication
 
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every fiction.
 
 ## Get in Touch
 

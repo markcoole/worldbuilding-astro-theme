@@ -43,5 +43,4 @@ export type SiteConfig = {
     hero?: Hero;
     subscribe?: Subscribe;
     postsPerPage?: number;
-    projectsPerPage?: number;
 };

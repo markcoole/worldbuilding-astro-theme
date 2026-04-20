@@ -45,7 +45,7 @@ You can update this file to customize:
 - Social links — URLs for supported platforms
 - Hero section — title, text, image, and action buttons
 - Newsletter subscription — form settings suitable for Mailchimp, Formspree, ConvertKit, or other form-based providers. The form supports a custom action URL, configurable email and hidden fields, and an optional honeypot field for spam protection.
-- Pagination — posts per page for blog and projects listings
+- Pagination — posts per page for blog and fiction listings
 
 Images can be referenced either as imports from `src/assets/` (for optimized Astro images) or as string paths from the `public/` directory.
 
@@ -56,7 +56,7 @@ The theme uses a `CustomImage` component that automatically displays images usin
 - Content collection images (used in posts or pages) must be stored in `src/assets/` since they use Astro’s `image()` schema.
 - Site-config images (like the avatar, hero image, or social preview) can either be imported from `src/assets/` for optimization or referenced directly from `public/` if you prefer not to optimize them.
 
-## Project Structure
+## Fiction Structure
 
 Inside of Dante Astro theme, you'll see the following folders and files:
 

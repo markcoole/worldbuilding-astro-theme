@@ -1,4 +1,3 @@
-@import '@fontsource-variable/inter' layer(base);
 @import '@fontsource-variable/newsreader' layer(base);
 @import '@fontsource-variable/newsreader/wght-italic.css' layer(base);
 
@@ -53,7 +52,7 @@ html.dark {
 */
 
 @theme inline {
-    --font-sans: 'Inter Variable', sans-serif;
+    --font-sans: 'Newsreader Variable', sans-serif;
     --font-serif: 'Newsreader Variable', serif;
     --text-color-main: var(--text-main);
     --background-color-main: var(--bg-main);
@@ -81,7 +80,7 @@ html.dark {
     }
 
     .prose a {
-        @apply underline font-normal decoration-1 underline-offset-2 decoration-dashed hover:decoration-solid;
+        @apply font-normal underline decoration-dashed decoration-1 underline-offset-2 hover:decoration-solid;
     }
 
     .prose :where(h1, h2, h3, h4, h5, h6) {
@@ -93,6 +92,38 @@ html.dark {
     }
 
     .prose blockquote {
-        @apply font-serif font-normal italic border-none pl-0 text-[1.375em] leading-snug sm:text-[1.66667em];
+        @apply border-none pl-0 font-serif text-[1.375em] leading-snug font-normal italic sm:text-[1.66667em];
+    }
+}
+
+hr {
+    background-color: transparent !important;
+    background: linear-gradient(
+        90deg,
+        currentColor 0%,
+        currentColor calc(50% - 20px),
+        transparent calc(50% - 20px),
+        transparent calc(50% + 20px),
+        currentColor calc(50% + 20px),
+        currentColor 100%
+    );
+    border: none;
+    height: 1px !important;
+    overflow: visible;
+    position: relative;
+    max-width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &::before {
+        background-color: currentColor;
+        content: '';
+        display: block;
+        position: absolute;
+        left: calc(50% - 3.5px);
+        top: calc(50% - 3.5px);
+        height: 7px;
+        transform: rotate(45deg);
+        width: 7px;
     }
 }
