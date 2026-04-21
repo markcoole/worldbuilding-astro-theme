@@ -5,14 +5,14 @@ const siteConfig: SiteConfig = {
     website: 'https://example.com',
     avatar: {
         src: avatar,
-        alt: 'Ethan Donovan'
+        alt: 'Mark'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'The Journal',
+    subtitle: 'A small corner of the web for stories and poems',
+    description: 'A quiet space for fiction, poetry, and thoughtful reflections on the stories that shape the fantasy genre.',
     image: {
         src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        alt: 'The Journal'
     },
     headerNavLinks: [
         {
@@ -42,31 +42,31 @@ const siteConfig: SiteConfig = {
             href: '/contact'
         },
         {
-            text: 'Terms',
-            href: '/terms'
+            text: 'Privacy',
+            href: '/privacy'
         },
         {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
+            text: 'Copyright',
+            href: '/copyright'
         }
     ],
     socialLinks: [
-        {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
+        // {
+        //     text: 'Dribbble',
+        //     href: 'https://dribbble.com/'
+        // },
+        // {
+        //     text: 'Instagram',
+        //     href: 'https://instagram.com/'
+        // },
+        // {
+        //     text: 'X/Twitter',
+        //     href: 'https://twitter.com/'
+        // }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Mark**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\n\nFeel free to explore some of my worldbuilding.",
+        title: 'The Journal',
+        text: "A small collection of fiction and poetry, written in moments of focus and instinct.\n\nSome are polished, some are raw, all of them are part of the same ongoing exploration.\n\nEach piece is its own little world.\n\nFeel free to wander.",
         // image: {
         //     src: quil,
         //     alt: 'A person sitting at a desk in front of a computer'
@@ -80,7 +80,7 @@ const siteConfig: SiteConfig = {
     },
     subscribe: {
         enabled: true,
-        title: 'Subscribe to Dante Newsletter',
+        title: 'Subscribe to The Journal Newsletter',
         text: 'One update per week. All the latest posts directly in your inbox.',
         form: {
             action: '#'
